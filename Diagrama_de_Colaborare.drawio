@@ -1,0 +1,99 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="7C-aXltH8jPJrVU0FPe6">
+    <mxGraphModel dx="1471" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1460" pageHeight="860" background="#262626" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="obj-rc" parent="1" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=#141414;strokeColor=#ffffff;fontColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;" value="rc: REPREZENTANT_CLUB" vertex="1">
+          <mxGeometry height="46" width="180" x="640" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="obj-sl" parent="1" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=#141414;strokeColor=#ffffff;fontColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;" value="sl: SECRETAR_LIGA" vertex="1">
+          <mxGeometry height="46" width="160" x="650" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="obj-stad" parent="1" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=#141414;strokeColor=#ffffff;fontColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;" value="stad: STADIUMS" vertex="1">
+          <mxGeometry height="46" width="150" x="60" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="obj-players" parent="1" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=#141414;strokeColor=#ffffff;fontColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;" value="j: PLAYERS" vertex="1">
+          <mxGeometry height="46" width="140" x="270" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="obj-staff" parent="1" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=#141414;strokeColor=#ffffff;fontColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;" value="st: STAFF" vertex="1">
+          <mxGeometry height="46" width="130" x="455" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="obj-ref" parent="1" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=#141414;strokeColor=#ffffff;fontColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;" value="ref: REFEREE" vertex="1">
+          <mxGeometry height="46" width="140" x="870" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="obj-fix" parent="1" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=#141414;strokeColor=#ffffff;fontColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;" value="m: FIXTURES" vertex="1">
+          <mxGeometry height="46" width="140" x="1050" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="obj-tr" parent="1" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=#141414;strokeColor=#ffffff;fontColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;" value="tr: TRANSFERS" vertex="1">
+          <mxGeometry height="46" width="150" x="1250" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="obj-champ" parent="1" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=#141414;strokeColor=#ffffff;fontColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;" value="c: CHAMPIONSHIP" vertex="1">
+          <mxGeometry height="46" width="160" x="55" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="obj-pos" parent="1" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=#141414;strokeColor=#ffffff;fontColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;" value="pp: PLAYER_POSITIONS" vertex="1">
+          <mxGeometry height="46" width="170" x="255" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="obj-team" parent="1" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=#141414;strokeColor=#ffffff;fontColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;" value="e: TEAM" vertex="1">
+          <mxGeometry height="46" width="140" x="660" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="obj-stats" parent="1" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=#141414;strokeColor=#ffffff;fontColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;" value="s: STATS" vertex="1">
+          <mxGeometry height="46" width="130" x="1055" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="obj-season" parent="1" style="swimlane;fontStyle=4;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=#141414;strokeColor=#ffffff;fontColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;" value="sez: SEASON" vertex="1">
+          <mxGeometry height="46" width="140" x="1255" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="msg-1" edge="1" parent="1" source="obj-rc" style="endArrow=classic;html=1;strokeColor=#cccccc;fontColor=#ffffff;labelBackgroundColor=#141414;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="obj-sl" value=" 1: solicitareInregistrareMeci(idMeci, idEchipa) ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="msg-2" edge="1" parent="1" source="obj-sl" style="endArrow=classic;html=1;strokeColor=#cccccc;fontColor=#ffffff;labelBackgroundColor=#141414;fontSize=10;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="obj-players" value=" 2: interogareJucatoriLot(team_id) ">
+          <mxGeometry relative="1" x="-0.1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-3" edge="1" parent="1" source="obj-players" style="endArrow=classic;html=1;strokeColor=#cccccc;fontColor=#ffffff;labelBackgroundColor=#141414;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="obj-pos" value=" 3: verificarePozitie(player_position_id) ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="msg-4" edge="1" parent="1" source="obj-sl" style="endArrow=classic;html=1;strokeColor=#cccccc;fontColor=#ffffff;labelBackgroundColor=#141414;fontSize=10;exitX=0.2;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="obj-staff" value=" 4: verificareStaff(staff_id) ">
+          <mxGeometry relative="1" x="0.1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-5" edge="1" parent="1" source="obj-sl" style="endArrow=classic;html=1;strokeColor=#cccccc;fontColor=#ffffff;labelBackgroundColor=#141414;fontSize=10;exitX=0;exitY=0.35;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="obj-stad" value=" 5: verificareStadion(stadium_id) ">
+          <mxGeometry relative="1" x="-0.25" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-6" edge="1" parent="1" source="obj-stad" style="endArrow=classic;html=1;strokeColor=#cccccc;fontColor=#ffffff;labelBackgroundColor=#141414;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="obj-champ" value=" 6: validareCampionat(championship_id) ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="msg-7-10" edge="1" parent="1" source="obj-sl" style="endArrow=classic;html=1;strokeColor=#cccccc;fontColor=#ffffff;labelBackgroundColor=#141414;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="obj-team" value=" 7: verificarePunctajEchipa(team_id) &#xa; 10: actualizarePuncteSiPozitie(points, position) ">
+          <mxGeometry relative="1" x="0.32" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-8" edge="1" parent="1" source="obj-sl" style="endArrow=classic;html=1;strokeColor=#cccccc;fontColor=#ffffff;labelBackgroundColor=#141414;fontSize=10;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="obj-fix" value=" 8: inregistrareMeci(id, date, time) ">
+          <mxGeometry relative="1" x="-0.1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-9" edge="1" parent="1" source="obj-fix" style="endArrow=classic;html=1;strokeColor=#cccccc;fontColor=#ffffff;labelBackgroundColor=#141414;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="obj-stats" value=" 9: adaugareStatistici(goals, assists, clean_sheets) ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="msg-11" edge="1" parent="1" source="obj-sl" style="endArrow=classic;html=1;strokeColor=#cccccc;fontColor=#ffffff;labelBackgroundColor=#141414;fontSize=10;exitX=0.8;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="obj-ref" value=" 11: atribuireArbitru(ref_id) ">
+          <mxGeometry relative="1" x="0.1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-12" edge="1" parent="1" source="obj-sl" style="endArrow=classic;html=1;strokeColor=#cccccc;fontColor=#ffffff;labelBackgroundColor=#141414;fontSize=10;exitX=1;exitY=0.35;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="obj-tr" value=" 12: initiereTransfer(player_id, transfer_sum) ">
+          <mxGeometry relative="1" x="-0.25" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-13" edge="1" parent="1" source="obj-tr" style="endArrow=classic;html=1;strokeColor=#cccccc;fontColor=#ffffff;labelBackgroundColor=#141414;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="obj-season" value=" 13: verificareFereastraTransfer(transfer_window) ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
